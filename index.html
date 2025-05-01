@@ -1,0 +1,144 @@
+<!-- CÓDIGO HTML COMPLETO -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="container text-center">
+    <img src="img/avatar-perfil.png" alt="avatar de Gabriel" class="rounded-circle" width="150" height="150" />
+    <p class="lead">Eu sou Gabriel</p>
+    <h1>Estudante do 3º ano do Ensino Médio</h1>
+    <p>Estudo programação pelos cursos da Alura. Já estudei no IFB, ajudo colegas no clube de xadrez e nos cursos. Veja o que já desenvolvi!</p>
+    <p>Minhas habilidades</p>
+    <div>
+      <p class="badge bg-secondary">HTML</p>
+      <p class="badge bg-secondary">CSS</p>
+      <p class="badge bg-secondary">Xadrez</p>
+      <p class="badge bg-secondary">Scratch</p>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <h2>Meus projetos</h2>
+    <div class="row">
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-1.png" class="card-img-top" alt="Projeto 1 - Biblioteca" />
+          <div class="card-body">
+            <h5 class="card-title">Minha Biblioteca</h5>
+            <p class="card-text">Página web com meus livros favoritos, autores, datas e links para compra.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/gabrielflix.png" class="card-img-top" alt="Projeto 2 - GabrielFlix" />
+          <div class="card-body">
+            <h5 class="card-title">GabrielFlix</h5>
+            <p class="card-text">Site estilo Netflix com filmes e séries favoritos, usando HTML e CSS.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-3.png" class="card-img-top" alt="Projeto 3 - Aventura em Astronomia" />
+          <div class="card-body">
+            <h5 class="card-title">Explorando o Universo</h5>
+            <p class="card-text">Experiência interativa sobre astronomia feita com Scratch.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Minha Biblioteca</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Página HTML e CSS com livros favoritos, autores, ano e link para compra. Visual bonito com Google Fonts e layout responsivo.</p>
+          <img src="img/projeto-1.png" class="img-fluid w-100 mb-3" />
+        </div>
+        <div class="modal-footer">
+          <a href="https://2c-vamp-50.github.io/minhas-leituras/" target="_blank" class="btn btn-primary">Ver projeto ao vivo</a>
+          <a href="https://github.com/2C-Vamp-50/minhas-leituras" target="_blank" class="btn btn-secondary">Ver código no GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">GabrielFlix</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Projeto inspirado na Netflix, com filmes e séries favoritos. Visual escuro, moderno, com HTML e CSS.</p>
+          <img src="img/gabrielflix.png" class="img-fluid w-100 mb-3" />
+        </div>
+        <div class="modal-footer">
+          <a href="https://2c-vamp-50.github.io/GabrielFlix/" target="_blank" class="btn btn-primary">Ver projeto ao vivo</a>
+          <a href="https://github.com/2C-Vamp-50/GabrielFlix" target="_blank" class="btn btn-secondary">Ver código no GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Explorando o Universo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Experiência interativa sobre astronomia feita com Scratch. Explica constelações, eclipses e mais com imagens, falas e cliques.</p>
+          <img src="img/projeto-3.png" class="img-fluid w-100 mb-3" />
+        </div>
+        <div class="modal-footer">
+          <a href="https://2c-vamp-50.github.io/Criando-uma-aventura/" target="_blank" class="btn btn-primary">Ver projeto ao vivo</a>
+          <a href="https://github.com/2C-Vamp-50/Criando-uma-aventura" target="_blank" class="btn btn-secondary">Ver código no GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container py-5 text-center">
+    <h2>Entre em contato</h2>
+    <p>
+      <i class="bi bi-github"></i>
+      <a href="https://github.com/2C-Vamp-50" target="_blank">GitHub de Gabriel</a>
+    </p>
+    <p class="mt-4">© Copyright 2024. Produzido por Gabriel</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
